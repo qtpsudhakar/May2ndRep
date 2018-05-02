@@ -4,10 +4,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class OhrmLogin_Xpath {
 
+	@BeforeClass
+	public void bc1() {
+		System.out.println("this is before class");
+	}
 	@Test
 	public void test1() {
 		System.setProperty("webdriver.chrome.driver", "F:\\SeleniumSoftware\\BrowserDrivers\\chromedriver.exe");
