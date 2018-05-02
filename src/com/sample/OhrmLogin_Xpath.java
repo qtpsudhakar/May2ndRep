@@ -13,6 +13,7 @@ public class OhrmLogin_Xpath {
 	public void bc1() {
 		System.out.println("this is before class");
 		System.out.println("hello");
+		System.out.println("this is a change from remote");
 	}
 	@Test
 	public void test1() {
