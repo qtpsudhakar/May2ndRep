@@ -12,6 +12,7 @@ public class OhrmLogin_Xpath {
 	@BeforeClass
 	public void bc1() {
 		System.out.println("this is before class");
+		System.out.println("hello");
 	}
 	@Test
 	public void test1() {
