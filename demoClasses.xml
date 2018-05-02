@@ -1,0 +1,7 @@
+<suite name="smoke">
+	<test name="c1">
+		<classes>
+			<class name="com.sample.OhrmLogin_Xpath" />
+		</classes>
+	</test>
+</suite>
